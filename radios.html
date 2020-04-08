@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="data:,">
+    <title>2,000 Radios</title>
+    <style>
+        html,
+        input[type='text'] {
+            font-size: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        window.onload = function () {
+            let deepDivOpen = "", deepDivClose = "";
+            for (let i = 0; i < 20; i++) {
+                deepDivOpen += "<div>";
+                deepDivClose += "</div>";
+            }
+            let html = "";
+            for (let i = 0; i < 2000; i++) {
+                html += deepDivOpen + "<input type='radio' value='1'><input type='text'>" + deepDivClose + "\n";
+            }
+            document.querySelector(".mounter").innerHTML = html;
+        };
+    </script>
+    <h3>2,000 radios and input texts under 'display: none;' div.</h3>
+    <h3>Software keyboard shows up immediately.</h3>
+    <div><input type='radio' value='1'><input type='text'></div>
+    <div><input type='radio' value='1'><input type='text'></div>
+    <div>There are 2,000 radios and input texts below.</div>
+    <div style='display: none;' class="mounter">
+
+    </div>
+</body>
+
+</html>
