@@ -55,11 +55,12 @@ The symptom occurs when:
 * INPUT checkbox tag and INPUT text tag are paired. 
 * The pairs are in the each of deep nested DIV tags.
 
+The symptom doesn't occur:
 
-The symptom doesn't occur after software keyboard was showed onece.
-The symptom doesn't occur if you replace INPUT checkbox tag to INPUT radio tag.
-(radios.html is replaced file. I hope this symptom is to be a hint for a resolution.)
-The symptom doesn't occur if you open checkboxes.html by iOS Chrome browser.
+* After software keyboard was showed onece.
+* If you replace INPUT checkbox tag to INPUT radio tag.   
+  (radios.html is replaced file. I hope this symptom is to be a hint for a resolution.)
+* If you open checkboxes.html by iOS Chrome browser.
 
 ### Reproduction video on YouTube
 
@@ -69,9 +70,9 @@ https://youtu.be/j492SRBCj8c
 
 iOS Settings > General > About information:
 
-Software Version: 13.4
-Model Name: iPad mini (5th generation)
-Model Number: MUQX2J/A
+Software Version: 13.4  
+Model Name: iPad mini (5th generation)  
+Model Number: MUQX2J/A  
 
 iOS Settings > General > Keyboard > Keyboards information:
 
@@ -81,16 +82,16 @@ iOS Settings > General > Keyboard > Keyboards information:
 
 iOS Settings > General > Language & Region information:
 
-iPad Language: English
+iPad Language: English  
 
 PREFERRED LANGUAGE ORDER
 
 * English
 * Japanese
 
-Region: Japan
-Calendar: Gregorian
-Temperature Unit: ℃
+Region: Japan  
+Calendar: Gregorian  
+Temperature Unit: ℃  
 
 
 ## License
